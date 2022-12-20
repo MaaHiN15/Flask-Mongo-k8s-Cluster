@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-configmap
+data:
+  db_url: mongo-service
+  app_db_url: mongodb://maahin:admin@mongo-service:27017/
